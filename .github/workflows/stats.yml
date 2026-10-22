@@ -10,7 +10,6 @@ on:
 
 permissions:
   contents: write
-  issues: read
 
 jobs:
   stats:
@@ -35,14 +34,30 @@ jobs:
       - name: Bump image versions in README
         run: node scripts/bump-versions.mjs
 
-      - name: Commit
+      - name: Commit to main
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add assets README.md
           if git diff --cached --quiet; then
-            echo "nothing to commit"
+            echo "no change to commit"
           else
             git commit -m "chore: update stats and contribution graphs"
             git push
           fi
+
+      # GitHub Pages 的发布源是 gh-pages 分支，只放图片，发布面上不出现仓库其他文件
+      - name: Publish assets to gh-pages
+        run: |
+          rm -rf "$RUNNER_TEMP/publish"
+          mkdir -p "$RUNNER_TEMP/publish/assets"
+          cp assets/*.svg "$RUNNER_TEMP/publish/assets/"
+          touch "$RUNNER_TEMP/publish/.nojekyll"
+          printf '<!doctype html>\n<html lang="zh">\n<head>\n<meta charset="utf-8">\n<meta http-equiv="refresh" content="0; url=https://github.com/qiuxi903">\n<title>qiuxi903</title>\n</head>\n<body><a href="https://github.com/qiuxi903">qiuxi903</a></body>\n</html>\n' > "$RUNNER_TEMP/publish/index.html"
+          cd "$RUNNER_TEMP/publish"
+          git init -q -b gh-pages
+          git add -A
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -m "chore: publish profile assets" -q
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
