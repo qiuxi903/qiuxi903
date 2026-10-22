@@ -4,6 +4,9 @@
  *
  * 作用：图片内容一旦变化，URL 随之变化，浏览器与 CDN 的旧缓存自动失效，
  * 打开主页时看到的永远是最新生成的图。
+ *
+ * 图片通过 GitHub Pages 提供（缓存 10 分钟），国内访问可达；
+ * 不使用相对路径，因为 GitHub 会把相对路径 302 到 raw.githubusercontent.com（国内不可达）。
  */
 
 import { readFileSync, writeFileSync, readdirSync } from "node:fs"
@@ -12,6 +15,7 @@ import { createHash } from "node:crypto"
 
 const ASSETS = process.env.ASSETS_DIR || "assets"
 const README = process.env.README_FILE || "README.md"
+const BASE = process.env.PAGES_BASE || "https://qiuxi903.github.io/qiuxi903/assets"
 
 const hash8 = (buf) => createHash("sha256").update(buf).digest("hex").slice(0, 8)
 
@@ -24,10 +28,12 @@ for (const name of readdirSync(ASSETS)) {
 let md = readFileSync(README, "utf8")
 let changed = 0
 
-md = md.replace(/(\.\/assets\/([a-z0-9-]+\.svg))(\?v=[a-f0-9]+)?/g, (all, full, name) => {
+const pattern = /(?:\.\/assets\/|https:\/\/qiuxi903\.github\.io\/qiuxi903\/assets\/)([a-z0-9-]+\.svg)(\?v=[a-f0-9]+)?/g
+
+md = md.replace(pattern, (all, name) => {
   const h = hashes[name]
   if (!h) return all
-  const next = `${full}?v=${h}`
+  const next = `${BASE}/${name}?v=${h}`
   if (next !== all) changed++
   return next
 })
