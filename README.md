@@ -55,9 +55,9 @@
 <!-- 统计卡片由 .github/workflows/stats.yml 每日生成，无需任何 token -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=3b27d340" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/stats.svg?v=4857bf0e" />
-    <img width="100%" src="./assets/stats.svg?v=4857bf0e" alt="GitHub statistics" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/stats-dark.svg?v=db8f5219" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/stats.svg?v=1ba2bd95" />
+    <img width="100%" src="./assets/stats.svg?v=1ba2bd95" alt="GitHub statistics" />
   </picture>
 </div>
 
@@ -76,9 +76,9 @@
 <!-- 贡献热力图由 .github/workflows/stats.yml 每日生成，随仓库活动自动更新 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg?v=f7b3042c" />
-    <source media="(prefers-color-scheme: light)" srcset="./assets/contrib.svg?v=2d64e3df" />
-    <img width="100%" src="./assets/contrib.svg?v=2d64e3df" alt="contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/contrib-dark.svg?v=bc6e9bba" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/contrib.svg?v=e81a5bfd" />
+    <img width="100%" src="./assets/contrib.svg?v=e81a5bfd" alt="contribution graph" />
   </picture>
 </div>
 
