@@ -20,17 +20,13 @@
 
   <rect width="1200" height="260" fill="url(#bg)"/>
   <rect width="1200" height="260" fill="url(#dots)"/>
-  <ellipse cx="600" cy="150" rx="520" ry="170" fill="url(#glow)"/>
+  <ellipse cx="600" cy="130" rx="520" ry="150" fill="url(#glow)"/>
 
   <!-- 装饰字符 -->
   <text x="96" y="215" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="76" fill="#4ab8fd" fill-opacity="0.10">&lt;/&gt;</text>
   <text x="1104" y="215" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="76" fill="#4ab8fd" fill-opacity="0.10" text-anchor="end">&lt;/&gt;</text>
 
-  <text x="600" y="122" text-anchor="middle" font-family="'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',-apple-system,system-ui,sans-serif" font-size="68" font-weight="700" fill="#f0f6fc" letter-spacing="6">qiuxi903</text>
+  <text x="600" y="146" text-anchor="middle" font-family="'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',-apple-system,system-ui,sans-serif" font-size="72" font-weight="700" fill="#f0f6fc" letter-spacing="6">qiuxi903</text>
 
-  <text x="600" y="166" text-anchor="middle" font-family="'Segoe UI','PingFang SC','Hiragino Sans GB','Microsoft YaHei',-apple-system,system-ui,sans-serif" font-size="19" fill="#9fc6e8" letter-spacing="3">Minecraft 生态 · 桌面原生开发 · Web 全栈</text>
-
-  <rect x="530" y="192" width="140" height="4" rx="2" fill="url(#accent)"/>
-
-  <text x="600" y="228" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="13" fill="#6f93b8" letter-spacing="1">build · ship · maintain</text>
+  <rect x="530" y="180" width="140" height="4" rx="2" fill="url(#accent)"/>
 </svg>

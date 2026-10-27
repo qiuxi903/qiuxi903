@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/banner.svg?v=8e615e2e" alt="qiuxi903" />
+  <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/banner.svg?v=282cb2f9" alt="qiuxi903" />
 </div>
 
 <div align="center">
@@ -55,9 +55,9 @@
 <!-- 统计卡片由 .github/workflows/stats.yml 每日生成，无需任何 token -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats-dark.svg?v=ea6cc7c0" />
-    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=0fd22013" />
-    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=0fd22013" alt="GitHub statistics" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats-dark.svg?v=cdfb5355" />
+    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=b7be7845" />
+    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=b7be7845" alt="GitHub statistics" />
   </picture>
 </div>
 
@@ -76,9 +76,9 @@
 <!-- 贡献热力图由 .github/workflows/stats.yml 每日生成，随仓库活动自动更新 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=e94523a9" />
-    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=ae4b8835" />
-    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=ae4b8835" alt="contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=1ba489cd" />
+    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=32cd29d8" />
+    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=32cd29d8" alt="contribution graph" />
   </picture>
 </div>
 
