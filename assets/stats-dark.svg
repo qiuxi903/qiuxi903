@@ -15,7 +15,7 @@
 <text x="579.8333333333334" y="114" font-size="24" font-weight="700" fill="#c9d1d9" text-anchor="middle">14</text>
 <text x="579.8333333333334" y="136" font-size="12" fill="#8b949e" text-anchor="middle">仓库</text>
 <rect x="666.6666666666666" y="74" width="145.66666666666666" height="78" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-<text x="739.5" y="114" font-size="24" font-weight="700" fill="#c9d1d9" text-anchor="middle">347</text>
+<text x="739.5" y="114" font-size="24" font-weight="700" fill="#c9d1d9" text-anchor="middle">362</text>
 <text x="739.5" y="136" font-size="12" fill="#8b949e" text-anchor="middle">提交</text>
 <rect x="826.3333333333333" y="74" width="145.66666666666666" height="78" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1"/>
 <text x="899.1666666666666" y="114" font-size="24" font-weight="700" fill="#c9d1d9" text-anchor="middle">1</text>
@@ -23,7 +23,7 @@
 <text x="28" y="196" font-size="14" font-weight="600" fill="#c9d1d9">语言构成</text>
 <text x="132" y="233" font-size="13" fill="#c9d1d9" text-anchor="end">Rust</text>
 <rect x="144" y="223" width="766" height="14" rx="7" fill="#21262d"/>
-<rect x="144" y="223" width="283.4" height="14" rx="7" fill="#dea584"/>
+<rect x="144" y="223" width="283.3" height="14" rx="7" fill="#dea584"/>
 <text x="972" y="233" font-size="12" fill="#8b949e" text-anchor="end">37.0%</text>
 <text x="132" y="259" font-size="13" fill="#c9d1d9" text-anchor="end">GLSL</text>
 <rect x="144" y="249" width="766" height="14" rx="7" fill="#21262d"/>
@@ -35,8 +35,8 @@
 <text x="972" y="285" font-size="12" fill="#8b949e" text-anchor="end">25.8%</text>
 <text x="132" y="311" font-size="13" fill="#c9d1d9" text-anchor="end">Python</text>
 <rect x="144" y="301" width="766" height="14" rx="7" fill="#21262d"/>
-<rect x="144" y="301" width="7.2" height="14" rx="7" fill="#3572A5"/>
-<text x="972" y="311" font-size="12" fill="#8b949e" text-anchor="end">0.9%</text>
+<rect x="144" y="301" width="7.3" height="14" rx="7" fill="#3572A5"/>
+<text x="972" y="311" font-size="12" fill="#8b949e" text-anchor="end">1.0%</text>
 <text x="132" y="337" font-size="13" fill="#c9d1d9" text-anchor="end">C++</text>
 <rect x="144" y="327" width="766" height="14" rx="7" fill="#21262d"/>
 <rect x="144" y="327" width="4.1" height="14" rx="7" fill="#f34b7d"/>
