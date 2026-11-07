@@ -3,7 +3,7 @@
 <text x="972" y="38" font-size="13" fill="#8c959f" text-anchor="end">GitHub Statistics</text>
 <line x1="28" y1="56" x2="972" y2="56" stroke="#d8dee4" stroke-width="1"/>
 <rect x="28" y="74" width="145.66666666666666" height="78" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
-<text x="100.83333333333333" y="114" font-size="24" font-weight="700" fill="#24292f" text-anchor="middle">6</text>
+<text x="100.83333333333333" y="114" font-size="24" font-weight="700" fill="#24292f" text-anchor="middle">7</text>
 <text x="100.83333333333333" y="136" font-size="12" fill="#57606a" text-anchor="middle">关注者</text>
 <rect x="187.66666666666666" y="74" width="145.66666666666666" height="78" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1"/>
 <text x="260.5" y="114" font-size="24" font-weight="700" fill="#24292f" text-anchor="middle">5</text>
