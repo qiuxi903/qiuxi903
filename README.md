@@ -55,9 +55,9 @@
 <!-- 统计卡片由 .github/workflows/stats.yml 每日生成，无需任何 token -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats-dark.svg?v=d210ff51" />
-    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=b52de9f6" />
-    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=b52de9f6" alt="GitHub statistics" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats-dark.svg?v=ec21937f" />
+    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=33b8eb5d" />
+    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/stats.svg?v=33b8eb5d" alt="GitHub statistics" />
   </picture>
 </div>
 
@@ -76,9 +76,9 @@
 <!-- 贡献热力图由 .github/workflows/stats.yml 每日生成，随仓库活动自动更新 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=1bb5056a" />
-    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=6886b9e1" />
-    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=6886b9e1" alt="contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=eaae7118" />
+    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=5071c036" />
+    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=5071c036" alt="contribution graph" />
   </picture>
 </div>
 
