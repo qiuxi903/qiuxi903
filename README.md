@@ -76,9 +76,9 @@
 <!-- 贡献热力图由 .github/workflows/stats.yml 每日生成，随仓库活动自动更新 -->
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=35507ade" />
-    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=d9bb6af2" />
-    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=d9bb6af2" alt="contribution graph" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib-dark.svg?v=edf03cb1" />
+    <source media="(prefers-color-scheme: light)" srcset="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=a202af8d" />
+    <img width="100%" src="https://qiuxi903.github.io/qiuxi903/assets/contrib.svg?v=a202af8d" alt="contribution graph" />
   </picture>
 </div>
 
