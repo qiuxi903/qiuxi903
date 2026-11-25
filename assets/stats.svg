@@ -51,6 +51,6 @@
 <text x="972" y="389" font-size="12" fill="#57606a" text-anchor="end">0.5%</text>
 <text x="132" y="415" font-size="13" fill="#24292f" text-anchor="end">PHP</text>
 <rect x="144" y="405" width="766" height="14" rx="7" fill="#eaeef2"/>
-<rect x="144" y="405" width="2.1" height="14" rx="7" fill="#4F5D95"/>
+<rect x="144" y="405" width="2.2" height="14" rx="7" fill="#4F5D95"/>
 <text x="972" y="415" font-size="12" fill="#57606a" text-anchor="end">0.3%</text>
 </svg>
