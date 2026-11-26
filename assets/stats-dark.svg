@@ -43,7 +43,7 @@
 <text x="972" y="337" font-size="12" fill="#8b949e" text-anchor="end">0.5%</text>
 <text x="132" y="363" font-size="13" fill="#c9d1d9" text-anchor="end">JavaScript</text>
 <rect x="144" y="353" width="766" height="14" rx="7" fill="#21262d"/>
-<rect x="144" y="353" width="3.8" height="14" rx="7" fill="#f1e05a"/>
+<rect x="144" y="353" width="3.9" height="14" rx="7" fill="#f1e05a"/>
 <text x="972" y="363" font-size="12" fill="#8b949e" text-anchor="end">0.5%</text>
 <text x="132" y="389" font-size="13" fill="#c9d1d9" text-anchor="end">Lua</text>
 <rect x="144" y="379" width="766" height="14" rx="7" fill="#21262d"/>
